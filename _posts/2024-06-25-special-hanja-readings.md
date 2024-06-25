@@ -4,7 +4,7 @@ date: 2024-06-25 21:00:00 +0900
 categories: [국어]
 tags: 한국어 한자어 활음조
 image:
-  path: /posts/special-hanja-readings/special-hanja-readings-1.png
+  path: /assets/img/2024-06-25-special-hanja-readings/1.png
 ---
 
 > 경찰청 철창살은 외철창살이고 검찰청 철창살은 쌍철창살이다.
@@ -24,7 +24,7 @@ image:
 하지만 우리가 일상 생활에서 사용하는 한자에서도 특이한 현상이 있는데,
 자음 동화와 비슷하게 발음이 더 용이하도록 특정 한자어에서 한자음이 바뀌는 경우가 있다.
 
-![examples](special-hanja-readings-1.png){: w="500" .shadow }
+![examples](/assets/img/2024-06-25-special-hanja-readings/1.png){: w="500" .shadow }
 
 이 사진에 예시 다섯 개가 있다. 이 다섯 예시 모두 기존 발음에서 더욱 발음하기 쉽도록 발음이
 변화하여 표기까지 바뀌어 버린 경우이다.
