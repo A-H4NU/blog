@@ -54,7 +54,7 @@ have the following recursive formula:
 Rearranging, we get
 
 \begin{equation}\label{eq:2}
-  a_n = a_{n-1} + \frac{n}{N}\text{.}
+  a_n = a_{n-1} + \frac{N}{n}\text{.}
 \end{equation}
 
 Equation \eqref{eq:2} directly gives
