@@ -11,6 +11,9 @@ math: true
 - [Introduction](#introduction)
 - [Problem Statement](#problem-statement)
 - [Solution](#solution)
+  - [Solution 1](#solution-1)
+  - [Solution 2](#solution-2)
+- [Conclusion](#conclusion)
 <!--toc:end-->
 
 ## Introduction
@@ -36,6 +39,8 @@ at uniformly random from $$S$$ and put to $$F$$, i.e., $$F \leftarrow F \cup \{
 Now, take your time to solve this problem! (Hint: it is easy.)
 
 ## Solution
+
+### Solution 1
 
 For fixed $$N$$, suppose there are $$n$$ elements should be chosen to reach $$S
 = F$$. In other words, $$n = |S \setminus F|$$. Now, let $$a_n$$ be the
@@ -65,5 +70,19 @@ Equation \eqref{eq:2} directly gives
 
 where $$H_n$$ is the $$n$$-th harmonic number.
 
-In particular, setting $$N = 100$$, we get $$a_N \approx 518.74$$. In other
-words, I shall expect about 519 log-in tries to observe all 100 numbers.
+In particular, we have $$a_N = N \cdot H_N$$.
+
+### Solution 2
+
+For fixed $$N$$, let $$X_i$$ be a random variable for the number of
+steps until the next element which has not been chosen before when there are
+$$i$$ elements not chosen. Then, we immediately get $$\mathbb{E}[X_i] = N/i$$.
+Then, $$X$$, the random variable for the number of steps to reach $$F = S$$
+equals $$\sum_{i=1}^N X_i$$; by linearity, we get
+
+$$\mathbb{E}[X] = \sum_{i=1}^N \mathbb{E}[X_i] = N \cdot \sum_{i=1}^N \frac{1}{i} = N \cdot H_N\text{.}$$
+
+## Conclusion
+
+Hence, as $$100 \cdot H_100 \approx 518.74$$, I shall expect about 519 log-in tries to observe all
+100 numbers.
