@@ -80,9 +80,10 @@ $$i$$ elements not chosen. Then, we immediately get $$\mathbb{E}[X_i] = N/i$$.
 Then, $$X$$, the random variable for the number of steps to reach $$F = S$$
 equals $$\sum_{i=1}^N X_i$$; by linearity, we get
 
-$$\mathbb{E}[X] = \sum_{i=1}^N \mathbb{E}[X_i] = N \cdot \sum_{i=1}^N \frac{1}{i} = N \cdot H_N\text{.}$$
+$$\mathbb{E}[X] = \sum_{i=1}^N \mathbb{E}[X_i] = N \cdot \sum_{i=1}^N
+\frac{1}{i} = N \cdot H_N\text{.}$$
 
 ## Conclusion
 
-Hence, as $$100 \cdot H_100 \approx 518.74$$, I shall expect about 519 log-in tries to observe all
-100 numbers.
+Hence, as $$100 \cdot H_{100} \approx 518.74$$, I shall expect about 519 log-in
+tries to observe all 100 numbers.
