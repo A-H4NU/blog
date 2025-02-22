@@ -73,14 +73,14 @@ $$\phi'(t) = \frac{pe^t}{(1-qe^t)^2} \text{ and } \phi''(t)=\frac{pe^t [1-(qe^t)
 (Yes, I calculated for you.)
 Now, we finally have
 
-$$\mathrm{Var}(Y) = \mathbb{E}[Y^2] - (\mathbb{E}[Y])^2 = \phi''(0) -
-(\phi'(0))^2 = \frac{2-p}{p^2} - \left(\frac{1}{p}\right)^2 = \frac{1-p}{p^2}\text{.}$$
+$$\mathrm{Var}(Y) = \mathbb{E}[Y^2] - \mathbb{E}[Y]^2 = \phi''(0) -
+\phi'(0)^2 = \frac{2-p}{p^2} - \left(\frac{1}{p}\right)^2 = \frac{1-p}{p^2}\text{.}$$
 
 ### Finally Calculating the Variance
 
 Now, we have
 
-$$\mathrm{Var}(X_i) = \frac{1-p_i}{p_i^2} = N^2/i^2 - N/i\text{.}$$
+$$\mathrm{Var}(X_i) = \frac{1-p_i}{p_i^2} = \frac{N^2}{i^2} - \frac{N}{i}\text{.}$$
 
 Hence, the variance we want to calculate is
 
