@@ -1,5 +1,5 @@
 ---
-title:  Collecting Verification Codes
+title:  Collecting Verification Codes (1)
 date: 2025-02-21 20:00:00 +0900
 categories: [Math]
 tags: english math probability
@@ -71,6 +71,7 @@ Equation \eqref{eq:2} directly gives
 where $$H_n$$ is the $$n$$-th harmonic number.
 
 In particular, we have $$a_N = N \cdot H_N$$.
+(In fact, this solution needs more verification that each $$a_i$$ exists but I omit.)
 
 ### Solution 2
 
