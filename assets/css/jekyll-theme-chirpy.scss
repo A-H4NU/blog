@@ -8,6 +8,35 @@
 {%- endif -%}
 ';
 
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap');
+
+:root {
+  --font-family-sans: 'Geist', sans-serif !important;
+  --font-family-monospace: 'Geist Mono', monospace !important;
+  --heading-font-family: 'Geist', sans-serif !important;
+}
+
+body {
+  font-family: 'Geist', sans-serif !important;
+}
+
+code, pre, .highlighter-rouge {
+  font-family: 'Geist Mono', monospace !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Geist', sans-serif !important;
+}
+
+.site-title {
+  font-weight: 700 !important;
+}
+
+.site-subtitle {
+  font-family: 'Geist Mono', monospace !important;
+  font-style: normal !important;
+}
+
 @media(prefers-color-scheme: light) {
     html:not([data-mode]),html[data-mode=light] {
         --main-bg: #eff1f5;
