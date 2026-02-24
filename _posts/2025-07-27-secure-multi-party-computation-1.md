@@ -7,16 +7,6 @@ toc: true
 math: true
 ---
 
-<!--toc:start-->
-- [Introduction](#introduction)
-- [Sharing Secrets](#sharing-secrets)
-- [Linearity of Secret Sharing](#linearity-of-secret-sharing)
-  - [Addition of Two Secrets](#addition-of-two-secrets)
-  - [Scalar Multiplication of Secrets](#scalar-multiplication-of-secrets)
-- [Example: Calculating the Average of Test Scores](#example-calculating-the-average-of-test-scores)
-- [Conclusion](#conclusion)
-<!--toc:end-->
-
 ## Introduction
 
 **Secure Multi-Party Computation** (SMC or MPC) is a subfield of cryptography that

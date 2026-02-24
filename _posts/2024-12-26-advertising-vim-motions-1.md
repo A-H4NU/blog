@@ -7,20 +7,6 @@ toc: true
 math: true
 ---
 
-<!--toc:start-->
-- [vi](#vi)
-- [Vim motion](#vim-motion)
-  - [Vim motion의 장점과 단점](#vim-motion의-장점과-단점)
-  - [Vim motion 구조 알아보기](#vim-motion-구조-알아보기)
-    - [기본 커서 움직임](#기본-커서-움직임)
-    - [텍스트 수정하기](#텍스트-수정하기)
-      - [Insert Mode로 텍스트 수정하기](#insert-mode로-텍스트-수정하기)
-      - [Vim Motion으로 텍스트 수정하기](#vim-motion으로-텍스트-수정하기)
-      - [Vim Motion과 Text Object로 텍스트 수정하기](#vim-motion과-text-object로-텍스트-수정하기)
-- [VSCode에 설치하기](#vscode에-설치하기)
-- [맺음말](#맺음말)
-<!--toc:end-->
-
 마우스 없이 컴퓨터를 다룬다는 것은 있을 수 없는 일이다. 하지만 가정용 PC에 마우스를 지원한 것은
 1983년[^1]이라는 것을 아는가? 그럼 그 이전 사람들은 대체 어떻게 프로그래밍을 했을까?
 그 시대의 대표적인 텍스트 편집기인 vi(와 그 후속작들)의 여러 매커니즘을 알아보고 어떻게 VSCode 등

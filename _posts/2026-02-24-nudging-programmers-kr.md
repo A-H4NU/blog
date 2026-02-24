@@ -6,16 +6,6 @@ tags: korean coding
 toc: true
 ---
 
-<!--toc:start-->
-- [서론](#서론)
-- [넛지(Nudge)](#넛지nudge)
-- [문법적 가스라이팅의 예시들](#문법적-가스라이팅의-예시들)
-  - [C++: static_cast](#c-static_cast)
-  - [Rust: unsafe](#rust-unsafe)
-  - [Go: if err != nil](#go-if-err--nil)
-- [결론](#결론)
-<!--toc:end-->
-
 > There is an [English version]({% post_url 2026-02-24-nudging-programmers-en %}) of this post.
 {: .prompt-info }
 

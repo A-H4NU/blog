@@ -7,15 +7,6 @@ toc: true
 math: true
 ---
 
-<!--toc:start-->
-- [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
-- [Solution](#solution)
-  - [Variance of Geometric Distribution](#variance-of-geometric-distribution)
-  - [Finally Calculating the Variance](#finally-calculating-the-variance)
-- [Conclusion](#conclusion)
-<!--toc:end-->
-
 ## Introduction
 
 In the [previous

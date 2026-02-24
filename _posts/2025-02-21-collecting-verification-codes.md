@@ -7,15 +7,6 @@ toc: true
 math: true
 ---
 
-<!--toc:start-->
-- [Introduction](#introduction)
-- [Problem Statement](#problem-statement)
-- [Solution](#solution)
-  - [Solution 1](#solution-1)
-  - [Solution 2](#solution-2)
-- [Conclusion](#conclusion)
-<!--toc:end-->
-
 ## Introduction
 
 When I try to log into my university's SSO system, it gives me a two-digit

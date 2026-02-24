@@ -6,16 +6,6 @@ tags: english coding
 toc: true
 ---
 
-<!--toc:start-->
-- [Introduction](#introduction)
-- [Nudge](#nudge)
-- [Examples of Syntactical Gaslighting](#examples-of-syntactical-gaslighting)
-  - [C++: static_cast](#c-static_cast)
-  - [Rust: unsafe](#rust-unsafe)
-  - [Go: if err != nil](#go-if-err--nil)
-- [Conclusion](#conclusion)
-<!--toc:end-->
-
 > [한국어 버전]({% post_url 2026-02-24-nudging-programmers-kr %})이 있습니다.
 {: .prompt-info }
 
